@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import akshare as ak
 from datetime import datetime
 
-app = FastAPI(title="八字財運股市資料API")
+app = FastAPI(title="個股股市資料API")
 
 app.add_middleware(
     CORSMiddleware,
